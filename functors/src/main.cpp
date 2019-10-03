@@ -30,6 +30,5 @@ int main()
     //using Functors
     int inc_val = 5;
     transform(begin(vec), end(vec), ostream_iterator<int>(cout," "), MyIncrementFunctor(inc_val));
-
     return 0;
 }
